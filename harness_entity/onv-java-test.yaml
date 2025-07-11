@@ -1,0 +1,20 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: defauter_101
+name: onv-java-test
+owner: Sdhar
+spec:
+  lifecycle: experimental
+  ownedBy:
+  - group/sample-group
+metadata:
+  description: Generated Java service from IDP template
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/Sdhar-ORG-Harness/pipeline14/blob/main/gen-code.yaml
+  links:
+  - title: Website
+    url: http://my-sample-website.com
+  tags:
+  - my-sample
