@@ -3,11 +3,12 @@ kind: Component
 type: service
 identifier: defauter_101
 name: onv-java
-owner: Sdhar
+owner: user:account/shibam.dhar@harness.io
 spec:
   lifecycle: experimental
   ownedBy:
   - group/sample-group
+  - user:account/shibam.dhar@harness.io
 metadata:
   description: Generated Java service from IDP template
   annotations:
