@@ -2,7 +2,7 @@ apiVersion: harness.io/v1
 kind: Component
 type: service
 identifier: defauter_101
-name: onv-java-test
+name: onv-java
 owner: Sdhar
 spec:
   lifecycle: experimental
