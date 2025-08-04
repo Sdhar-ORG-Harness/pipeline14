@@ -6,6 +6,12 @@ name: onv-java
 owner: user:account/shibam.dhar@harness.io
 spec:
   lifecycle: experimental
+  partOf:
+  - system:account/demo_system
+  - system:account/payment_gateway
+  system:
+  - system:account/demo_system
+  - system:account/payment_gateway
   ownedBy:
   - group/sample-group
   - user:account/shibam.dhar@harness.io
